@@ -1,8 +1,9 @@
 [package]
 name = "rotor-persistent"
 description = """
-    The library that simplifies writing persistent connection protocols
-    with auto-reconnection, DNS resolving and refreshing DNS records.
+    The library that simplifies writing client protocols with persistent
+    connections, auto-reconnecting, DNS resolving and refreshing of DNS
+    records, and pluggable name services in future.
 """
 license = "MIT/Apache-2.0"
 readme = "README.rst"
