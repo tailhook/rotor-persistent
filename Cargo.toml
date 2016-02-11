@@ -1,0 +1,23 @@
+[package]
+name = "rotor-persistent"
+description = """
+    The library that simplifies writing persistent connection protocols
+    with auto-reconnection, DNS resolving and refreshing DNS records.
+"""
+license = "MIT/Apache-2.0"
+readme = "README.rst"
+keywords = ["mio", "cantal", "rotor", "metrics"]
+homepage = "http://github.com/tailhook/rotor-persistent"
+documentation = "http://tailhook.github.io/rotor-persistent"
+version = "0.1.0"
+authors = ["paul@colomiets.name"]
+
+[dependencies]
+rotor = "0.5.0"
+void = "0.0.5"
+
+[dev-dependencies]
+argparse = "0.2.1"
+
+[lib]
+name = "rotor_persistent"
